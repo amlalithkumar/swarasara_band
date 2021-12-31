@@ -6,8 +6,19 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat&family=Mukta&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
+    
+    <!-- Alert JS -->
+    <script>
+  function showAlert() {
+    var yourName=prompt("Hi! What's Your Name Friend?");
+    alert ("Hello! " + yourName.slice(0,1).toUpperCase() + yourName.slice(1,yourName.length).toLowerCase() + ", Am Lalith Kumar.\nNice To Meet You :)");
+  }
+  </script>
   </head>
-  <body>
+  
+  <!-- Alert Onload Body Tag -->
+  
+  <body onload="showAlert()">
     <div class="welcome">
       <h1 class="header">Swara Sara</h1>
       <!-- Animation -->
